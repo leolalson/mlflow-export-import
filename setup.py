@@ -1,7 +1,9 @@
 from setuptools import setup, find_packages
 
 CORE_REQUIREMENTS = [
+    "boto3>=1.42.24",
     "mlflow>=1.28.0",
+    "tabulate>=0.9.0"
     "wheel"
 ]
 
